@@ -48,9 +48,9 @@ will mark passive words with dark green color.
 
 The script can be called in multiple ways:
 
-*  ./checkwriting &lt;files&gt;
-*  ./checkwriting &lt;directory&gt; : In this case the script uses all &#42;.tex and &#42;.bbl files in the directory. If it doesn't find any, then it waits for input from stdin.
-*  ./checkwriting : With no files, the script waits for diff style input on STDIN. I use it this way often. Say, you made some changes to the manuscript. Just do git diff | ./checkwriting and you only have to look at new errors.
+* `./checkwriting <files>`
+* `./checkwriting <directory>`: In this case the script uses all `*.tex` and `*.bbl` files in the directory. If it doesn't find any, then it waits for input from stdin.
+* `./checkwriting`: With no files, the script waits for diff style input on STDIN. I use it this way often. Say, you made some changes to the manuscript. Just do `git diff | ./checkwriting` and you only have to look at new errors.
 
 ## Notes on the warnings ##
 
