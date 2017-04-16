@@ -56,12 +56,12 @@ The script can be called in multiple ways:
 
 Some of the warnings are obvious, some aren't. The non-obvious ones are discussed here.
 
-* The typography warning: "add a \@" is to let LaTeX know when its end of line.
-  LaTeX assumes that a period ends a sentence, unless it follows a capital
-letter in which case it assumes that it is an abbreviation. So to let LaTex know that 'iOS.' is really end of sentence, write 'iOS\@.'
+* The typography warning: "add a \@" is to let LaTeX know when its end of line. LaTeX assumes that a period ends a sentence, unless it follows a capital letter in which case it assumes that it is an abbreviation. So to let LaTex know that 'iOS.' is really end of sentence, write 'iOS\@.'
+
+* Similarly, `<slash escape the space>` indicates that you should escape a space character after a dot if it is not starting a new sentence. For example, replace "Smith et al. say" with "Smith et al.\ say".
 
 
-## Acks ##
+## Acknowledgments ##
 The original idea and code for this came from Matt Might's [blog](http://matt.might.net/articles/shell-scripts-for-passive-voice-weasel-words-duplicates/)
 
 Here are some other links that might be useful (and might be integrated
